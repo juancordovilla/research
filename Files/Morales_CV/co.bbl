@@ -1,0 +1,86 @@
+\begin{thebibliography}{10}
+
+\bibitem{Morales06}
+Juan~A. Morales-Cordovilla, Timo Bauman, Jos{\'e}~L. P{\'e}rez, Antonio~M.
+  Peinado, and Angel~M. Gomez.
+\newblock Implementaci{\'o}n de un reconocedor distribuido de voz en tiempo
+  real sobre {IP}.
+\newblock In {\em IV Jornadas en Tecnolog{\'i}as del Habla (Iberspeech).
+  Zaragoza}, 2006, Octubre.
+
+\bibitem{Morales11MD}
+Juan~A. Morales-Cordovilla, Ning Ma, Victoria S\'anchez, Jos\'e~L. Carmona,
+  Antonio~M. Peinado, and Jon Barker.
+\newblock A pitch based noise estimation technique for robust speech
+  recognition with missing data.
+\newblock In {\em IEEE International Conference on Acoustics, Speech and Signal
+  Processing (ICASSP). Praga}, pages 4808--4811, 2011.
+
+\bibitem{Morales12_CASA}
+Juan~A. Morales-Cordovilla, Pablo~Caba\ nas Molero, Antonio~M. Peinado, and
+  Victoria S\'anchez.
+\newblock A robust pitch extractor based on {DTW} lines and {CASA} with
+  application in noisy speech recognition.
+\newblock In 328:, editor, {\em Iberspeech. Communications in Computer and
+  Information Science (Springer). Madrid}, pages 197--206, 2012.
+
+\bibitem{Fuchs13}
+Anna~K. Fuchs, Juan~A. Morales-Cordovilla, and Martin Hagm\"uller.
+\newblock {ASR} for electro-laryngeal speech.
+\newblock In {\em IEEE Automatic Speech Recognition and Understanding Workshop
+  (ASRU). Olomouc}, pages 234--238, 2013.
+
+\bibitem{Morales14_RoomLoc}
+Juan~A. Morales-Cordovilla, Hannes Pessentheiner, Martin Hagm\"uller, and
+  Gernot Kubin.
+\newblock Room localization for distant speech recognition.
+\newblock In {\em Interspeech. Singapore}, 2014.
+
+\bibitem{Schuppler14}
+Barbara Schuppler, Martin Hagm\"uller, Juan~A. Morales-Cordovilla, and Hannes
+  Pessentheiner.
+\newblock {GRASS}: The {Graz} corpus of read and spontaneous speech.
+\newblock In {\em The 9th Language Resources and Evaluation Conference (LREC).
+  Reykjavik}, pages 1465--1470, 2014.
+
+\bibitem{Messner15}
+Elmar Messner, Hannes Pessentheiner, Juan~A. Morales-Cordovilla, and Martin
+  Hagm\"uller.
+\newblock Adaptive differential microphone arrays used as a front-end for an
+  automatic speech recognition system.
+\newblock In {\em IEEE International Conference on Acoustics, Speech and Signal
+  Processing (ICASSP). Brisbane}, pages 2689--2693, 2015.
+
+\bibitem{Sivasankaran15}
+Sunit Sivasankaran, Aditya~Arie Nugraha, Emmanuel Vincent, Juan~A.
+  Morales-Cordovilla, Siddharth Dalmia, Irina Illina, and Antoine Liutkus.
+\newblock Robust {ASR} using neural network based speech enhancement and
+  feature simulation.
+\newblock In {\em IEEE Automatic Speech Recognition and Understanding Workshop
+  (ASRU) (ranked 4 of 26 participants at international CHIME3 Challenge).
+  Brisbane}, 2015.
+
+\bibitem{Nathwani17}
+Karan Nathwani, Juan~A. Morales-Cordovilla, Sunit Sivasankaran, Irina Illina,
+  and Emmanuel Vincent.
+\newblock An extensive experimental investigation of {DNN} uncertainty
+  propagation for noise robust {ASR}.
+\newblock In {\em Hands-free Speech Communication and Microphone Arrays
+  (HSCMA). San Francisco}, 2017.
+
+\bibitem{Villegas18}
+Amelia Villegas-Morcillo, Juan~A. Morales-Cordovilla, Angel~M. Gomez, and
+  Victoria Sanchez.
+\newblock Improved protein residue-residue contact prediction using image
+  denoising methods.
+\newblock In {\em European Signal Processing Conference (EUSIPCO). Rome}, 2018.
+
+\bibitem{Lopez18}
+Francisco Gonzalez-Lopez, Juan~A. Morales-Cordovilla, Amelia Villegas-Morcillo,
+  Angel~M. Gomez, and Victoria Sanchez.
+\newblock End-to-end prediction of protein-protein interaction based on
+  embedding and recurrent neural networks.
+\newblock In {\em International Workshop on Deep Learning in Bioinformatics,
+  Biomedicine, and Healthcare Informatics (DLB2H) at BIBM}, 2018.
+
+\end{thebibliography}

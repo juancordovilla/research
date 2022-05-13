@@ -1,0 +1,188 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX Template: Curriculum Vitae
+%
+% Source: http://www.howtotex.com/
+% Feel free to distribute this template, but please keep the
+% referal to HowToTeX.com.
+% Date: July 2011
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% How to use writeLaTeX: 
+%
+% You edit the source code here on the left, and the preview on the
+% right shows you the result within a few seconds.
+%
+% Bookmark this page and share the URL with your co-authors. They can
+% edit at the same time!
+%
+% You can upload figures, bibliographies, custom classes and
+% styles using the files menu.
+%
+% If you're new to LaTeX, the wikibook is a great place to start:
+% http://en.wikibooks.org/wiki/LaTeX
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[paper=a4,fontsize=11pt]{scrartcl} % KOMA-article class
+                            
+\usepackage[english]{babel}
+%\usepackage[utf8x]{inputenc}
+\usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage{amsmath,amsfonts,amsthm}     % Math packages
+\usepackage{graphicx}                    % Enable pdflatex
+\usepackage[svgnames]{xcolor}            % Colors by their 'svgnames'
+\usepackage{geometry}
+    \textheight=700px                    % Saving trees ;-)
+\usepackage{url}
+\usepackage[bottom]{footmisc}
+
+
+%\renewcommand\bibname{New Title}
+
+%\usepackage{biblatex}
+\usepackage{multibib}
+\newcites{jo}{Journals}
+\newcites{co}{Conferences}
+
+
+
+\frenchspacing              % Better looking spacings after periods
+\pagestyle{empty}           % No pagenumbers/headers/footers
+
+%%% Custom sectioning (sectsty package)
+%%% ------------------------------------------------------------
+\usepackage{sectsty}
+
+\sectionfont{%                      % Change font of \section command
+    \usefont{OT1}{phv}{b}{n}%       % bch-b-n: CharterBT-Bold font
+    \sectionrule{0pt}{0pt}{-5pt}{3pt}}
+
+%%% Macros
+%%% ------------------------------------------------------------
+\newlength{\spacebox}
+\settowidth{\spacebox}{8888888888}          % Box to align text
+\newcommand{\sepspace}{\vspace*{1em}}       % Vertical space macro
+
+
+\newcommand{\MyName}[1]{ % Name
+        \Huge \usefont{OT1}{phv}{b}{n} \hfill #1
+        \par \normalsize \normalfont}
+        
+\newcommand{\MySlogan}[1]{ % Slogan (optional)
+        \large \usefont{OT1}{phv}{m}{n}\hfill \textit{#1}
+        \par \normalsize \normalfont}
+
+\newcommand{\NewPart}[1]{\section*{\uppercase{#1}}}
+
+\newcommand{\PersonalEntry}[2]{
+        \noindent\hangindent=2em\hangafter=0 % Indentation
+        \parbox{\spacebox}{        % Box to align text
+        \textit{#1}}               % Entry name (birth, address, etc.)
+        \hspace{1.5em} #2 \par}    % Entry value
+
+\newcommand{\SkillsEntry}[2]{      % Same as \PersonalEntry
+        \noindent\hangindent=2em\hangafter=0 % Indentation
+        \parbox{\spacebox}{        % Box to align text
+        \textit{#1}}               % Entry name (birth, address, etc.)
+        \hspace{1.5em} #2 \par}    % Entry value    
+        
+
+
+
+
+%%% Begin Document
+%%% ------------------------------------------------------------
+%\addbibresource{./Ref/Ref.bib}
+\begin{document}
+% you can upload a photo and include it here...
+%\begin{wrapfigure}{l}{0.5\textwidth}
+%   \vspace*{-2em}
+%       \includegraphics[width=0.15\textwidth]{photo}
+%\end{wrapfigure}
+
+\MyName{Dr. Juan A. Morales-Cordovilla}
+%\MySlogan{Curriculum Vitae}
+
+\sepspace
+
+%%% Personal details
+%%% ------------------------------------------------------------
+\NewPart{Personal details}{}
+
+\PersonalEntry{Birth}{March 31, 1982}
+%\PersonalEntry{Address}{2 Ayuntamiento St., Padul-18640, Spain }
+%\PersonalEntry{Phone}{+34 663 601 793}
+\PersonalEntry{Mail, Web}{\url{jamc@ugr.es}, \url{www.ugr.es/~jamc}}
+
+%%% Education
+%%% ------------------------------------------------------------
+\NewPart{Education}{}
+
+\begin{tabular}{ l  p{12cm}}
+  2000-06 &  \textbf{MSc. Electronic Engineering at the University of Granada (UGR), Spain}. 3 year of Physics plus 2 year of specialization. Master Thesis published in conference \citeco{Morales06}.\\
+  2007-11 &  \textbf{PhD. Thesis at the UGR}. ``Pitch-based techniques for robust speech recognition'' (UGR) \citejo{Morales11Sift,Morales12}.  Visits to The Speech and Hearing Research Group, The University of Sheffield (UK) \citeco{Morales11MD,Morales12_CASA}.\\  
+\end{tabular}
+
+
+%%% Work experience
+%%% ------------------------------------------------------------
+\NewPart{Employment and projects}{}
+
+\begin{tabular}{ l  p{6cm} p{7cm}}
+  2012-14 &  \textbf{Postdoc, TUGraz, Austria} & European project (FP7-ICT-2011-7) on Distant Speech Recognition (DSR) using microphone arrays \citeco{Fuchs13,Morales14_RoomLoc,Schuppler14,Messner15}.\\
+  2015-16 &  \textbf{Postdoc, INRIA, France} & National project (BGD/300-11) on Deep Learning for  DSR \citeco{Sivasankaran15,Nathwani17}.\\
+  2016-2018 &  \textbf{Postdoc, UGR, Spain} & Project$^1$ (TEC2016-80141-P) on Bioinformatics for protein structure prediction \citeco{Villegas18,Lopez18} \citejo{Morales18}. \\ \\
+  2018-Present &  \textbf{Teacher, Public School, Spain} & Junta de Andaluc{\'i}a's secondary school (ages 12-20) on the subjects of Maths, Technology and Computer Science  $^2$. \\ \\
+  
+  
+  \end{tabular}
+
+{\footnotesize \noindent  1. I have directly participated in the redaction of this project to get the funding.
+\\ 2. At the same time I keep the research collaboration with UGR \citejo{Villegas20}.}
+
+%%% Teaching
+%%% ------------------------------------------------------------
+\NewPart{University teaching experience}{}
+\begin{itemize}
+ \item More than 300 hours teaching subjects such as ``Audio Technologies'' or ``Digital Signals'' of the Bachelor ``Telecommunications Engineering'' at the UGR. 2009-17.
+ \item Co-advisor of the students MSc. Florian Iglish (TUGraz, 2014), BSc. Siddharth Dalmia (INRIA, 2015) \citeco{Sivasankaran15} and PhD. student Francisco Gonzalez-Lopez \citeco{Lopez18} (UGR, 2018).
+\end{itemize}
+
+
+%%% Teaching
+%%% ------------------------------------------------------------
+\NewPart{Merits}{}
+
+\begin{itemize}
+ \item \textit{Award:} for the best journal student paper \citejo{Morales11Sift} (1500 Euros) by the RTTH (Spanish national network on speech technologies). 2011.
+ \item \textit{Examiner:} of the Pablo Caba{\~n}as Molero's PhD. Thesis ``Classification and Separation Techniques based on Fundamental Frequency for Speech Enhancement''. University of Ja\'en (Spain). 2016.
+ \item \textit{Reviewer:} of journals (IEEE Signal Processing (2016), Speech Communication (2016), IEEJ Trans. Journal (2014)) and conferences (Interspeech17, Interspeech16 and ICASSP14).
+ \item \textit{Challenges:} our speech recognition system \citeco{Sivasankaran15} was ranked 4 out of 26 participants on the international CHIME3 challenge. 2015. 
+\end{itemize}
+
+
+
+%%% Skills
+%%% ------------------------------------------------------------
+\NewPart{Skills}{}
+
+\SkillsEntry{Software}{\textsc{Matlab}, \textsc{Python} (theano, pytorch), \textsc{Java}, \textsc{C}, \LaTeX, \textsc{HTML}, \textsc{Linux}, \textsc{Sun-Grid-Engine}, etc. }
+\SkillsEntry{Languages}{Spanish (mother tongue), English (fluent, B2 certificate from EOI), German (intermediate), French (begginer).}
+\SkillsEntry{Music}{guitar, saxophone, singing, etc.}
+
+
+
+%%% References
+%%% ------------------------------------------------------------
+\NewPart{Selected publications}{}
+
+%\printbibliography[title={Main References}]
+
+\bibliographystylejo{unsrt}
+\bibliographyjo{./Ref/Ref}
+\bibliographystyleco{unsrt}
+\bibliographyco{./Ref/Ref}
+
+
+
+
+\end{document}

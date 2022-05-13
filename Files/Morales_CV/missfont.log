@@ -1,0 +1,24 @@
+mktextfm cmr10+20
+mktextfm cmr10-20
+mktextfm cmti10+20
+mktextfm cmti10-20
+mktextfm cmr9+20
+mktextfm cmr9-20
+mktextfm cmcsc10+20
+mktextfm cmcsc10-20
+mktexpk --mfmode / --bdpi 600 --mag 1+57/600 --dpi 657 cmcsc10
+mktexpk --mfmode / --bdpi 600 --mag 1+57/600 --dpi 657 cmr10
+mktextfm cmcsc10
+mktextfm cmr10
+mktexpk --mfmode / --bdpi 600 --mag 1+57/600 --dpi 657 cmcsc10
+mktexpk --mfmode / --bdpi 600 --mag 1+57/600 --dpi 657 cmr10
+mktextfm cmcsc10
+mktextfm cmr10
+mktexpk --mfmode / --bdpi 600 --mag 1+57/600 --dpi 657 cmcsc10
+mktexpk --mfmode / --bdpi 600 --mag 1+57/600 --dpi 657 cmr10
+mktextfm cmcsc10
+mktextfm cmr10
+mktexpk --mfmode / --bdpi 600 --mag 1+57/600 --dpi 657 cmcsc10
+mktexpk --mfmode / --bdpi 600 --mag 1+57/600 --dpi 657 cmr10
+mktextfm cmcsc10
+mktextfm cmr10

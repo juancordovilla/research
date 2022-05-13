@@ -1,0 +1,32 @@
+\begin{thebibliography}{1}
+
+\bibitem{Morales11Sift}
+Juan~A. Morales-Cordovilla, Antonio~M. Peinado, Victoria S\'anchez, and
+  Jos\'e~A. Gonzalez.
+\newblock Feature extraction based on pitch-synchronous averaging for robust
+  speech recognition.
+\newblock {\em IEEE Transactions on Audio, Speech, and Language Processing.
+  (Best journal paper prize from RTTH)}, 19(3):640--651, 2011.
+
+\bibitem{Morales12}
+Juan~A. Morales-Cordovilla, Victoria S\'anchez, Antonio~M. Peinado, and Angel
+  G\'omez.
+\newblock On the use of asymmetric windows for robust speech recognition.
+\newblock {\em Circuits, Systems and Signal Processing (Springer)},
+  31(2):727--736, 2012.
+
+\bibitem{Morales18}
+Juan~A. Morales-Cordovilla, Victoria~S\'anchez Calle, and Martin Ratajczak.
+\newblock Protein alignment based on higher order conditional random fields for
+  template-based modeling.
+\newblock {\em PLoS ONE (Public Library of Science)}, 13(6), e0197912, 2018.
+
+\bibitem{Villegas20}
+Amelia Villegas-Morcillo, Angel~M. Gomez, Juan~A. Morales-Cordovilla, and
+  Victoria Sanchez.
+\newblock Protein fold recognition from sequences using convolutional and
+  recurrent neural networks.
+\newblock {\em IEEE/ACM Transactions on Computational Biology and
+  Bioinformatics}, 2020.
+
+\end{thebibliography}

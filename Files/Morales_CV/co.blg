@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: co.aux
+The style file: unsrt.bst
+Database file #1: ./Ref/Ref.bib
+You've used 11 entries,
+            1791 wiz_defined-function locations,
+            514 strings with 6733 characters,
+and the built_in function-call counts, 3351 in all, are:
+= -- 252
+> -- 179
+< -- 5
++ -- 63
+- -- 52
+* -- 196
+:= -- 486
+add.period$ -- 33
+call.type$ -- 11
+change.case$ -- 11
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 183
+empty$ -- 351
+format.name$ -- 52
+if$ -- 800
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 11
+newline$ -- 58
+num.names$ -- 13
+pop$ -- 72
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 106
+stack$ -- 0
+substring$ -- 164
+swap$ -- 73
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 22
+width$ -- 13
+write$ -- 117

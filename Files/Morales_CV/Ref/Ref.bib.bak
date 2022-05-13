@@ -1,0 +1,208 @@
+% Encoding: windows-1252
+
+
+@Conference{Clares17,
+  Title                    = {Improved Image Based Protein Representations with Application to Membrane Protein Type Prediction},
+  Author                   = {Juan D. Clares and Victoria S\'anchez and Antonio M. Peinado and Juan A. Morales-Cordovilla and Concepci\'on Iribar and Jos\'e M. Peinado},
+  Booktitle                = {IEEE International Conference on Telecommunications and Signal Processing (TSP). Barcelona},
+  Year                     = {2017},
+
+  Owner                    = {jamc},
+  Timestamp                = {2018.03.06}
+}
+
+@Conference{Fuchs13,
+  Title                    = {{ASR} for electro-laryngeal speech},
+  Author                   = {Anna K. Fuchs and Juan A. Morales-Cordovilla and Martin Hagm\"uller},
+  Booktitle                = {IEEE Automatic Speech Recognition and Understanding Workshop (ASRU). Olomouc},
+  Year                     = {2013},
+  Pages                    = {234-238},
+
+  Owner                    = {jamc},
+  Timestamp                = {2018.03.06}
+}
+
+@Conference{Lopez18,
+  Title                    = {End-to-end prediction of protein-protein interaction based on embedding and recurrent neural networks},
+  Author                   = {Francisco Gonzalez-Lopez and Juan A. Morales-Cordovilla and Amelia Villegas-Morcillo and Angel M. Gomez and Victoria Sanchez},
+  Booktitle                = {International Workshop on Deep Learning in Bioinformatics, Biomedicine, and Healthcare Informatics (DLB2H) at BIBM},
+  Year                     = {2018},
+
+  Owner                    = {jamc},
+  Timestamp                = {2019.05.02}
+}
+
+@Conference{Messner15,
+  Title                    = {Adaptive Differential Microphone Arrays used as a Front-End for an Automatic Speech Recognition System},
+  Author                   = {Elmar Messner and Hannes Pessentheiner and Juan A. Morales-Cordovilla and Martin Hagm\"uller},
+  Booktitle                = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). Brisbane},
+  Year                     = {2015},
+  Pages                    = {2689-2693},
+
+  Owner                    = {jamc},
+  Timestamp                = {2018.03.06}
+}
+
+@PhdThesis{Morales11Thesis,
+  Title                    = {Pitch-based technique for robust speech recognition},
+  Author                   = {Juan A. Morales-Cordovilla},
+  School                   = {Dept. of Teor\'ia de la Se\~nal Telem\'atica y Comunicaciones, Universidad de Granada, Spain},
+  Year                     = {2011},
+
+  Owner                    = {roter},
+  Timestamp                = {2012.06.18}
+}
+
+@InProceedings{Morales06,
+  Title                    = {Implementaci{\'o}n de un reconocedor distribuido de voz en tiempo real sobre {IP}},
+  Author                   = {Juan A. Morales-Cordovilla and Timo Bauman and Jos{\'e} L. P{\'e}rez and Antonio M. Peinado and Angel M. Gomez},
+  Booktitle                = {IV Jornadas en Tecnolog{\'i}as del Habla (Iberspeech). Zaragoza},
+  Year                     = {2006, Octubre},
+
+  Owner                    = {roter},
+  Timestamp                = {2011.04.30}
+}
+
+@Article{Morales18,
+  Title                    = {Protein alignment based on higher order conditional random fields for template-based modeling},
+  Author                   = {Juan A. Morales-Cordovilla and Victoria S\'anchez Calle and Martin Ratajczak},
+  Journal                  = {PLoS ONE (Public Library of Science)},
+  Year                     = {2018},
+
+  Month                    = {e0197912,},
+  Number                   = {6},
+  Volume                   = {13},
+
+  Owner                    = {jamc},
+  Timestamp                = {2018.03.06}
+}
+
+@Conference{Morales14,
+  Title                    = {Distant speech recognition in reverberant noisy conditions employing a microphone array},
+  Author                   = {Juan A. Morales-Cordovilla and Martin Hagm\"uller and Hannes Pessentheiner and Gernot Kubin},
+  Booktitle                = {European Signal Processing Conference (EUSIPCO). Lisbon},
+  Year                     = {2014},
+
+  Owner                    = {jamc},
+  Timestamp                = {2018.03.06}
+}
+
+@InProceedings{Morales11MD,
+  Title                    = {A pitch based noise estimation technique for robust speech recognition with missing data},
+  Author                   = {Juan A. Morales-Cordovilla and Ning Ma and Victoria S\'anchez and Jos\'e L. Carmona and Antonio M. Peinado and Jon Barker},
+  Booktitle                = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). Praga},
+  Year                     = {2011},
+  Pages                    = {4808-4811},
+
+  Owner                    = {roter},
+  Timestamp                = {2011.05.01}
+}
+
+@Conference{Morales12_CASA,
+  Title                    = {A robust pitch extractor based on {DTW} lines and {CASA} with application in noisy speech recognition},
+  Author                   = {Juan A. Morales-Cordovilla and Pablo Caba\~nas-Molero and Antonio M. Peinado and Victoria S\'anchez},
+  Booktitle                = {Iberspeech. Communications in Computer and Information Science (Springer). Madrid},
+  Year                     = {2012},
+  Editor                   = {328:},
+  Pages                    = {197-206},
+
+  Owner                    = {jamc},
+  Timestamp                = {2018.03.07}
+}
+
+@Article{Morales11Sift,
+  Title                    = {Feature extraction based on pitch-synchronous averaging for robust speech recognition},
+  Author                   = {Juan A. Morales-Cordovilla and Antonio M. Peinado and Victoria S\'anchez and Jos\'e A. Gonzalez},
+  Journal                  = {IEEE Transactions on Audio, Speech, and Language Processing. (Best journal paper prize from RTTH)},
+  Year                     = {2011},
+  Number                   = {3},
+  Pages                    = {640-651},
+  Volume                   = {19},
+
+  Owner                    = {roter},
+  Timestamp                = {2010.10.18}
+}
+
+@InProceedings{Morales14_RoomLoc,
+  Title                    = {Room Localization for Distant Speech Recognition},
+  Author                   = {Juan A. Morales-Cordovilla and Hannes Pessentheiner and Martin Hagm\"uller and Gernot Kubin},
+  Booktitle                = {Interspeech. Singapore},
+  Year                     = {2014},
+
+  Owner                    = {jamc},
+  Timestamp                = {2014.06.12}
+}
+
+@InProceedings{Morales13_DAGA,
+  Title                    = {A {G}erman distant speech recognizer based on 3{D} beamforming and harmonic missing data mask},
+  Author                   = {Juan A. Morales-Cordovilla and Hannes Pessentheiner and Martin Hagm\"uller and Pejman Mowlaee and Franz Pernkopf and Gernot Kubin},
+  Booktitle                = {AIA-DAGA. Merano},
+  Year                     = {2013},
+
+  Owner                    = {jamc},
+  Timestamp                = {2013.03.20}
+}
+
+@Article{Morales12,
+  Title                    = {On the use of asymmetric windows for robust speech recognition},
+  Author                   = {Juan A. Morales-Cordovilla and Victoria S\'anchez and Antonio M. Peinado and Angel G\'omez},
+  Journal                  = {Circuits, Systems and Signal Processing (Springer)},
+  Year                     = {2012},
+  Number                   = {2},
+  Pages                    = {727-736},
+  Volume                   = {31},
+
+  Owner                    = {roter},
+  Timestamp                = {2011.05.01}
+}
+
+@Conference{Nathwani17,
+  Title                    = {An extensive experimental investigation of {DNN} uncertainty propagation for noise robust {ASR}},
+  Author                   = {Karan Nathwani and Juan A. Morales-Cordovilla and Sunit Sivasankaran and Irina Illina and Emmanuel Vincent},
+  Booktitle                = {Hands-free Speech Communication and Microphone Arrays (HSCMA). San Francisco},
+  Year                     = {2017},
+
+  Owner                    = {jamc},
+  Timestamp                = {2018.03.06}
+}
+
+@Conference{Schuppler14,
+  Title                    = {{GRASS}: The {Graz} corpus of read and spontaneous speech},
+  Author                   = {Barbara Schuppler and Martin Hagm\"uller and Juan A. Morales-Cordovilla and Hannes Pessentheiner},
+  Booktitle                = {The 9th Language Resources and Evaluation Conference (LREC). Reykjavik},
+  Year                     = {2014},
+  Pages                    = {1465-1470},
+
+  Owner                    = {jamc},
+  Timestamp                = {2018.03.06}
+}
+
+@Conference{Sivasankaran15,
+  Title                    = {Robust {ASR} Using Neural Network based Speech Enhancement and Feature Simulation},
+  Author                   = {Sunit Sivasankaran and Aditya Arie Nugraha and Emmanuel Vincent and Juan A. Morales-Cordovilla and Siddharth Dalmia and Irina Illina and Antoine Liutkus},
+  Booktitle                = {IEEE Automatic Speech Recognition and Understanding Workshop (ASRU) (ranked 4 of 26 participants at international CHIME3 Challenge). Brisbane},
+  Year                     = {2015},
+
+  Owner                    = {jamc},
+  Timestamp                = {2018.03.06}
+}
+
+@Conference{Villegas18,
+  Title                    = {Improved Protein Residue-Residue Contact Prediction Using Image Denoising Methods},
+  Author                   = {Amelia Villegas-Morcillo and Juan A. Morales-Cordovilla and Angel M. Gomez and Victoria Sanchez.},
+  Booktitle                = {European Signal Processing Conference (EUSIPCO). Rome},
+  Year                     = {2018},
+
+  Owner                    = {jamc},
+  Timestamp                = {2018.06.08}
+}
+
+@Article{Villegas20,
+  author  = {Amelia Villegas-Morcillo and Angel M. Gomez and Juan A. Morales-Cordovilla and Victoria Sanchez},
+  title   = {Protein Fold Recognition from Sequences using Convolutional and Recurrent Neural Networks},
+  journal = {IEEE/ACM Transactions on Computational Biology and Bioinformatics},
+  year    = {2020},
+  issn    = {DOI: 10.1109/TCBB.2020.3012732},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
